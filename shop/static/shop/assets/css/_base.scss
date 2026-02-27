@@ -1,0 +1,253 @@
+// ========================================
+// RESET & BASE STYLES
+// ========================================
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-secondary;
+  font-size: $font-size-base;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-base;
+  color: $medium-gray;
+  background-color: $body-bg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// ========================================
+// TYPOGRAPHY
+// ========================================
+
+h1, h2, h3, h4, h5, h6 {
+  @include heading-style;
+}
+
+h1 { font-size: $font-size-h1; }
+h2 { font-size: $font-size-h2; }
+h3 { font-size: $font-size-h3; }
+h4 { font-size: $font-size-h4; }
+h5 { font-size: $font-size-h5; }
+h6 { font-size: $font-size-h6; }
+
+p {
+  margin-bottom: $spacing-sm;
+}
+
+a {
+  color: $secondary-color;
+  text-decoration: none;
+  transition: $transition-base;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// ========================================
+// BUTTONS
+// ========================================
+
+.btn {
+  @include button-base;
+
+  &-primary {
+    @include button-variant($primary-color, $white, $primary-dark, $white);
+  }
+
+  &-secondary {
+    @include button-variant($secondary-color, $white, $secondary-light, $white);
+  }
+
+  &-outline-primary {
+    @include button-variant(transparent, $primary-color, $primary-color, $white);
+    border: 2px solid $primary-color;
+  }
+
+  &-outline-secondary {
+    @include button-variant(transparent, $secondary-color, $secondary-color, $white);
+    border: 2px solid $secondary-color;
+  }
+
+  &-sm {
+    padding: 8px 20px;
+    font-size: $font-size-sm;
+  }
+
+  &-lg {
+    padding: 16px 40px;
+    font-size: $font-size-lg;
+  }
+
+  &-block {
+    display: block;
+    width: 100%;
+  }
+}
+
+// ========================================
+// FORMS
+// ========================================
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+  @include input-base;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+label {
+  display: block;
+  margin-bottom: $spacing-xs;
+  font-weight: $font-weight-medium;
+  color: $secondary-color;
+}
+
+.form-group {
+  margin-bottom: $spacing-md;
+}
+
+// ========================================
+// UTILITIES
+// ========================================
+
+.container {
+  width: 100%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @include respond-to(md) {
+    padding: 0 30px;
+  }
+}
+
+.section {
+  padding: $section-padding-mobile;
+
+  @include respond-to(md) {
+    padding: $section-padding-desktop;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-white {
+  color: $white;
+}
+
+.bg-light {
+  background-color: $light-gray;
+}
+
+.bg-dark {
+  background-color: $secondary-color;
+  color: $white;
+}
+
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: $spacing-xs; }
+.mb-2 { margin-bottom: $spacing-sm; }
+.mb-3 { margin-bottom: $spacing-md; }
+.mb-4 { margin-bottom: $spacing-lg; }
+.mb-5 { margin-bottom: $spacing-xl; }
+
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: $spacing-xs; }
+.mt-2 { margin-top: $spacing-sm; }
+.mt-3 { margin-top: $spacing-md; }
+.mt-4 { margin-top: $spacing-lg; }
+.mt-5 { margin-top: $spacing-xl; }
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+// ========================================
+// RESPONSIVE HELPERS
+// ========================================
+
+@include respond-to(xs) {
+  .d-xs-none { display: none; }
+  .d-xs-block { display: block; }
+}
+
+@include respond-to(md) {
+  .d-md-none { display: none; }
+  .d-md-block { display: block; }
+  .d-md-flex { display: flex; }
+}
+
+@include respond-to(lg) {
+  .d-lg-none { display: none; }
+  .d-lg-block { display: block; }
+  .d-lg-flex { display: flex; }
+}

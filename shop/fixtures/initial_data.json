@@ -1,0 +1,210 @@
+[
+{
+  "model": "shop.category",
+  "pk": 4,
+  "fields": {
+    "name": "Books",
+    "slug": "books"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 2,
+  "fields": {
+    "name": "Clothing",
+    "slug": "clothing"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {
+    "name": "Electronics",
+    "slug": "electronics"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 3,
+  "fields": {
+    "name": "Home & Garden",
+    "slug": "home-garden"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "category": 2,
+    "name": "Classic Denim Jacket",
+    "slug": "classic-denim-jacket",
+    "image": "",
+    "description": "Timeless denim jacket in classic blue.",
+    "price": "79.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:04.489Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 10,
+  "fields": {
+    "category": 4,
+    "name": "Clean Code",
+    "slug": "clean-code",
+    "image": "",
+    "description": "Essential reading for software developers.",
+    "price": "44.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:05.557Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 8,
+  "fields": {
+    "category": 3,
+    "name": "Espresso Coffee Machine",
+    "slug": "espresso-coffee-machine",
+    "image": "",
+    "description": "Professional-grade espresso machine.",
+    "price": "299.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:06.994Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 11,
+  "fields": {
+    "category": 4,
+    "name": "Html book",
+    "slug": "html-book",
+    "image": "",
+    "description": "html book",
+    "price": "100.00",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-20T05:07:29.256Z",
+    "updated": "2026-02-20T05:21:07.923Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "name": "MacBook Pro 16\"",
+    "slug": "macbook-pro-16",
+    "image": "",
+    "description": "Powerful laptop with M2 Pro chip, 16GB RAM, 512GB SSD.",
+    "price": "2499.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:08.938Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "category": 2,
+    "name": "Premium Cotton T-Shirt",
+    "slug": "premium-cotton-tshirt",
+    "image": "",
+    "description": "Soft, breathable cotton t-shirt.",
+    "price": "29.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:09.859Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 7,
+  "fields": {
+    "category": 3,
+    "name": "Smart Robot Vacuum",
+    "slug": "smart-robot-vacuum",
+    "image": "",
+    "description": "Intelligent cleaning robot with mapping technology.",
+    "price": "449.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:10.947Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "category": 1,
+    "name": "Sony WH-1000XM5",
+    "slug": "sony-wh-1000xm5",
+    "image": "",
+    "description": "Industry-leading noise canceling headphones.",
+    "price": "399.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:12.009Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 9,
+  "fields": {
+    "category": 4,
+    "name": "The DevOps Handbook",
+    "slug": "devops-handbook",
+    "image": "",
+    "description": "Comprehensive guide to implementing DevOps practices.",
+    "price": "39.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:12.981Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "category": 1,
+    "name": "iPad Air",
+    "slug": "ipad-air",
+    "image": "",
+    "description": "Powerful tablet with M1 chip and Liquid Retina display.",
+    "price": "599.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:13.954Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "category": 1,
+    "name": "iPhone 15 Pro",
+    "slug": "iphone-15-pro",
+    "image": "",
+    "description": "Latest iPhone with A17 Pro chip and titanium design.",
+    "price": "999.99",
+    "stock": 10,
+    "available": true,
+    "created": "2026-02-19T10:53:26.760Z",
+    "updated": "2026-02-20T05:21:14.773Z"
+  }
+}
+]

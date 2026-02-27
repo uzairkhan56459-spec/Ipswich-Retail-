@@ -1,0 +1,13 @@
+{
+  "cart": [],
+  "wishlist": [],
+  "orders": [],
+  "users": [],
+  "currentUser": null,
+  "recentlyViewed": [],
+  "_metadata": {
+    "description": "Default empty snapshot for H&G Store",
+    "version": "1.0",
+    "createdAt": "2024-12-25"
+  }
+}

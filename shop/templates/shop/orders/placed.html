@@ -1,0 +1,60 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+
+{% block title %}Order Placed - Ipswich Retail{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-7">
+        <div class="bg-white rounded shadow-sm p-5 text-center">
+            <!-- Success Icon -->
+            <div class="mb-4">
+                <div style="width:70px;height:70px;background:#27ae60;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto;">
+                    <i class="fas fa-check fa-2x text-white"></i>
+                </div>
+            </div>
+
+            <h2 class="fw-bold mb-2">Order Placed Successfully!</h2>
+            <p class="text-muted">Thank you for your order. Your order number is <strong>#{{ order.id }}</strong></p>
+
+            <!-- Order Details -->
+            <div class="border rounded p-3 mt-4 text-start">
+                <h6 class="fw-bold text-center mb-3"><i class="fas fa-info-circle me-2 text-primary"></i>Order Details</h6>
+                <div class="row">
+                    <div class="col-md-6 mb-2">
+                        <span class="text-muted small">Name:</span>
+                        <span class="ms-2 fw-semibold">{{ order.first_name }} {{ order.last_name }}</span>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <span class="text-muted small">Address:</span>
+                        <span class="ms-2 fw-semibold">{{ order.address }}</span>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <span class="text-muted small">Email:</span>
+                        <span class="ms-2 fw-semibold">{{ order.email }}</span>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <span class="text-muted small">City:</span>
+                        <span class="ms-2 fw-semibold">{{ order.city }}, {{ order.postal_code }}</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between fw-bold">
+                    <span>Total Amount:</span>
+                    <span class="text-primary">${{ order.total_price }}</span>
+                </div>
+            </div>
+
+            <!-- Email Notice -->
+            <div class="alert alert-info mt-4 text-start" role="alert">
+                <i class="fas fa-envelope me-2"></i>
+                A confirmation email has been sent to <strong>{{ order.email }}</strong>
+            </div>
+
+            <a href="{% url 'shop:product_list' %}" class="btn btn-primary mt-2 px-5">
+                <i class="fas fa-store me-2"></i>Continue Shopping
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

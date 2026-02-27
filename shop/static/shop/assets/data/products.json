@@ -1,0 +1,759 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Handmade Ceramic Vase",
+      "category": "pottery",
+      "price": 45.00,
+      "salePrice": 40.50,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=500",
+        "hover": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=500",
+          "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.5,
+      "reviews": 24,
+      "stock": 15,
+      "description": "Beautiful handcrafted ceramic vase perfect for your home decor. Each piece is unique and made with care by skilled artisans.",
+      "shortDescription": "Unique handcrafted ceramic vase",
+      "tags": ["handmade", "ceramic", "decor", "vase"],
+      "sku": "POT-001",
+      "sizes": [],
+      "colors": ["white", "blue", "gray"]
+    },
+    {
+      "id": 2,
+      "name": "Artisan Leather Wallet",
+      "category": "accessories",
+      "price": 35.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
+        "hover": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
+          "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=500"
+        ]
+      },
+      "badge": "new",
+      "discount": 0,
+      "rating": 5.0,
+      "reviews": 18,
+      "stock": 25,
+      "description": "Premium handcrafted leather wallet with multiple card slots and compartments. Made from genuine leather.",
+      "shortDescription": "Premium leather wallet",
+      "tags": ["handmade", "leather", "wallet", "accessories"],
+      "sku": "ACC-002",
+      "sizes": [],
+      "colors": ["brown", "black", "tan"]
+    },
+    {
+      "id": 3,
+      "name": "Macrame Wall Hanging",
+      "category": "fabric",
+      "price": 55.00,
+      "salePrice": 49.50,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1602391833977-358a52198938?w=500",
+        "hover": "https://images.unsplash.com/photo-1602391684853-34e40e20e9ce?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1602391833977-358a52198938?w=500",
+          "https://images.unsplash.com/photo-1602391684853-34e40e20e9ce?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.8,
+      "reviews": 32,
+      "stock": 12,
+      "description": "Elegant macrame wall hanging to add bohemian charm to any room. Handwoven with premium cotton cord.",
+      "shortDescription": "Bohemian macrame wall art",
+      "tags": ["handmade", "macrame", "wall hanging", "fabric"],
+      "sku": "FAB-003",
+      "sizes": ["Small", "Medium", "Large"],
+      "colors": ["natural", "white"]
+    },
+    {
+      "id": 4,
+      "name": "Silver Beaded Necklace",
+      "category": "jewelry",
+      "price": 65.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500",
+        "hover": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500",
+          "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500"
+        ]
+      },
+      "badge": "bestseller",
+      "discount": 0,
+      "rating": 4.7,
+      "reviews": 45,
+      "stock": 20,
+      "description": "Exquisite handcrafted silver beaded necklace. Perfect for special occasions or everyday elegance.",
+      "shortDescription": "Handcrafted silver necklace",
+      "tags": ["handmade", "jewelry", "necklace", "silver"],
+      "sku": "JEW-004",
+      "sizes": [],
+      "colors": ["silver"]
+    },
+    {
+      "id": 5,
+      "name": "Handwoven Cotton Throw",
+      "category": "fabric",
+      "price": 75.00,
+      "salePrice": 67.50,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500",
+        "hover": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500",
+          "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.6,
+      "reviews": 28,
+      "stock": 18,
+      "description": "Cozy handwoven cotton throw blanket. Perfect for adding warmth and style to your living space.",
+      "shortDescription": "Cozy handwoven throw blanket",
+      "tags": ["handmade", "fabric", "throw", "blanket"],
+      "sku": "FAB-005",
+      "sizes": [],
+      "colors": ["beige", "gray", "navy"]
+    },
+    {
+      "id": 6,
+      "name": "Artisan Coffee Mug Set",
+      "category": "pottery",
+      "price": 40.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500",
+        "hover": "https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500",
+          "https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=500"
+        ]
+      },
+      "badge": "new",
+      "discount": 0,
+      "rating": 4.9,
+      "reviews": 52,
+      "stock": 30,
+      "description": "Set of 2 handcrafted ceramic coffee mugs. Each mug is uniquely glazed and dishwasher safe.",
+      "shortDescription": "Handcrafted ceramic mug set",
+      "tags": ["handmade", "pottery", "mug", "ceramic"],
+      "sku": "POT-006",
+      "sizes": [],
+      "colors": ["multicolor"]
+    },
+    {
+      "id": 7,
+      "name": "Handmade Turquoise Earrings",
+      "category": "jewelry",
+      "price": 28.00,
+      "salePrice": 25.20,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500",
+        "hover": "https://images.unsplash.com/photo-1596944924591-1c30024dbea4?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500",
+          "https://images.unsplash.com/photo-1596944924591-1c30024dbea4?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.4,
+      "reviews": 19,
+      "stock": 35,
+      "description": "Beautiful handcrafted turquoise earrings with sterling silver hooks. Lightweight and comfortable.",
+      "shortDescription": "Turquoise stone earrings",
+      "tags": ["handmade", "jewelry", "earrings", "turquoise"],
+      "sku": "JEW-007",
+      "sizes": [],
+      "colors": ["turquoise"]
+    },
+    {
+      "id": 8,
+      "name": "Woven Rattan Basket",
+      "category": "accessories",
+      "price": 32.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1615529182904-14819c35db37?w=500",
+        "hover": "https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1615529182904-14819c35db37?w=500",
+          "https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=500"
+        ]
+      },
+      "badge": "new",
+      "discount": 0,
+      "rating": 4.3,
+      "reviews": 15,
+      "stock": 22,
+      "description": "Handwoven rattan storage basket. Perfect for organizing your home with natural style.",
+      "shortDescription": "Natural rattan storage basket",
+      "tags": ["handmade", "rattan", "basket", "storage"],
+      "sku": "ACC-008",
+      "sizes": ["Small", "Medium", "Large"],
+      "colors": ["natural"]
+    },
+    {
+      "id": 9,
+      "name": "Ceramic Planter Set",
+      "category": "pottery",
+      "price": 50.00,
+      "salePrice": 45.00,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500",
+        "hover": "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500",
+          "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.7,
+      "reviews": 38,
+      "stock": 16,
+      "description": "Set of 3 handcrafted ceramic planters in different sizes. Drainage holes included.",
+      "shortDescription": "Handcrafted ceramic planters",
+      "tags": ["handmade", "pottery", "planter", "ceramic"],
+      "sku": "POT-009",
+      "sizes": [],
+      "colors": ["white", "terracotta", "sage"]
+    },
+    {
+      "id": 10,
+      "name": "Embroidered Cushion Cover",
+      "category": "fabric",
+      "price": 25.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?w=500",
+        "hover": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?w=500",
+          "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500"
+        ]
+      },
+      "badge": "bestseller",
+      "discount": 0,
+      "rating": 4.8,
+      "reviews": 41,
+      "stock": 40,
+      "description": "Hand-embroidered cushion cover with beautiful floral patterns. Machine washable.",
+      "shortDescription": "Hand-embroidered cushion cover",
+      "tags": ["handmade", "fabric", "cushion", "embroidery"],
+      "sku": "FAB-010",
+      "sizes": [],
+      "colors": ["cream", "blue", "pink"]
+    },
+    {
+      "id": 11,
+      "name": "Brass Statement Ring",
+      "category": "jewelry",
+      "price": 22.00,
+      "salePrice": 19.80,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500",
+        "hover": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500",
+          "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.2,
+      "reviews": 12,
+      "stock": 28,
+      "description": "Bold handcrafted brass statement ring with unique geometric design. Adjustable size.",
+      "shortDescription": "Geometric brass ring",
+      "tags": ["handmade", "jewelry", "ring", "brass"],
+      "sku": "JEW-011",
+      "sizes": ["Adjustable"],
+      "colors": ["gold"]
+    },
+    {
+      "id": 12,
+      "name": "Handmade Soap Set",
+      "category": "accessories",
+      "price": 18.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500",
+        "hover": "https://images.unsplash.com/photo-1600428972228-4e7e12eb9814?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500",
+          "https://images.unsplash.com/photo-1600428972228-4e7e12eb9814?w=500"
+        ]
+      },
+      "badge": "new",
+      "discount": 0,
+      "rating": 4.9,
+      "reviews": 56,
+      "stock": 45,
+      "description": "Set of 4 handmade natural soaps with essential oils. Vegan and cruelty-free.",
+      "shortDescription": "Natural handmade soap set",
+      "tags": ["handmade", "soap", "natural", "organic"],
+      "sku": "ACC-012",
+      "sizes": [],
+      "colors": ["multicolor"]
+    },
+    {
+      "id": 13,
+      "name": "Hand-Painted Ceramic Bowl",
+      "category": "pottery",
+      "price": 38.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=500",
+        "hover": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=500",
+          "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500"
+        ]
+      },
+      "badge": "new",
+      "discount": 0,
+      "rating": 4.6,
+      "reviews": 22,
+      "stock": 18,
+      "description": "Beautifully hand-painted ceramic bowl with intricate patterns. Perfect for serving or display.",
+      "shortDescription": "Hand-painted decorative bowl",
+      "tags": ["handmade", "ceramic", "bowl", "painted"],
+      "sku": "POT-013",
+      "sizes": [],
+      "colors": ["blue", "white", "multicolor"]
+    },
+    {
+      "id": 14,
+      "name": "Terracotta Dinner Plates",
+      "category": "pottery",
+      "price": 55.00,
+      "salePrice": 49.50,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500",
+        "hover": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500",
+          "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.8,
+      "reviews": 35,
+      "stock": 20,
+      "description": "Set of 4 handcrafted terracotta dinner plates. Microwave and dishwasher safe.",
+      "shortDescription": "Rustic terracotta plate set",
+      "tags": ["handmade", "pottery", "plates", "terracotta"],
+      "sku": "POT-014",
+      "sizes": [],
+      "colors": ["terracotta", "cream"]
+    },
+    {
+      "id": 15,
+      "name": "Stoneware Pitcher",
+      "category": "pottery",
+      "price": 42.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500",
+        "hover": "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500",
+          "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=500"
+        ]
+      },
+      "badge": "bestseller",
+      "discount": 0,
+      "rating": 4.7,
+      "reviews": 29,
+      "stock": 14,
+      "description": "Elegant handmade stoneware pitcher for serving water, juice, or as a vase.",
+      "shortDescription": "Handmade stoneware pitcher",
+      "tags": ["handmade", "pottery", "pitcher", "stoneware"],
+      "sku": "POT-015",
+      "sizes": [],
+      "colors": ["gray", "white", "sage"]
+    },
+    {
+      "id": 16,
+      "name": "Ceramic Candle Holders",
+      "category": "pottery",
+      "price": 28.00,
+      "salePrice": 25.20,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=500",
+        "hover": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=500",
+          "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.5,
+      "reviews": 18,
+      "stock": 25,
+      "description": "Set of 3 handcrafted ceramic candle holders in varying heights. Creates a cozy atmosphere.",
+      "shortDescription": "Ceramic candle holder set",
+      "tags": ["handmade", "pottery", "candle", "decor"],
+      "sku": "POT-016",
+      "sizes": [],
+      "colors": ["white", "black", "terracotta"]
+    },
+    {
+      "id": 17,
+      "name": "Pearl Drop Earrings",
+      "category": "jewelry",
+      "price": 45.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+        "hover": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+          "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500"
+        ]
+      },
+      "badge": "new",
+      "discount": 0,
+      "rating": 4.9,
+      "reviews": 42,
+      "stock": 30,
+      "description": "Elegant freshwater pearl drop earrings with gold-plated hooks. Timeless and sophisticated.",
+      "shortDescription": "Freshwater pearl earrings",
+      "tags": ["handmade", "jewelry", "earrings", "pearl"],
+      "sku": "JEW-017",
+      "sizes": [],
+      "colors": ["gold", "silver"]
+    },
+    {
+      "id": 18,
+      "name": "Gemstone Bracelet",
+      "category": "jewelry",
+      "price": 38.00,
+      "salePrice": 34.20,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500",
+        "hover": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500",
+          "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.6,
+      "reviews": 27,
+      "stock": 22,
+      "description": "Handcrafted bracelet with natural gemstone beads. Each stone is unique and has healing properties.",
+      "shortDescription": "Natural gemstone bracelet",
+      "tags": ["handmade", "jewelry", "bracelet", "gemstone"],
+      "sku": "JEW-018",
+      "sizes": ["Small", "Medium", "Large"],
+      "colors": ["multicolor"]
+    },
+    {
+      "id": 19,
+      "name": "Gold Wire Pendant",
+      "category": "jewelry",
+      "price": 52.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500",
+        "hover": "https://images.unsplash.com/photo-1596944924591-1c30024dbea4?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500",
+          "https://images.unsplash.com/photo-1596944924591-1c30024dbea4?w=500"
+        ]
+      },
+      "badge": "bestseller",
+      "discount": 0,
+      "rating": 4.8,
+      "reviews": 38,
+      "stock": 15,
+      "description": "Delicate wire-wrapped pendant with semi-precious stone. Comes with gold-plated chain.",
+      "shortDescription": "Wire-wrapped pendant necklace",
+      "tags": ["handmade", "jewelry", "pendant", "wire"],
+      "sku": "JEW-019",
+      "sizes": [],
+      "colors": ["gold"]
+    },
+    {
+      "id": 20,
+      "name": "Bohemian Anklet Set",
+      "category": "jewelry",
+      "price": 24.00,
+      "salePrice": 21.60,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=500",
+        "hover": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=500",
+          "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.4,
+      "reviews": 21,
+      "stock": 35,
+      "description": "Set of 3 layered bohemian anklets with shells and beads. Adjustable size fits all.",
+      "shortDescription": "Boho anklet set",
+      "tags": ["handmade", "jewelry", "anklet", "bohemian"],
+      "sku": "JEW-020",
+      "sizes": ["Adjustable"],
+      "colors": ["gold", "silver"]
+    },
+    {
+      "id": 21,
+      "name": "Linen Table Runner",
+      "category": "fabric",
+      "price": 35.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=500",
+        "hover": "https://images.unsplash.com/photo-1602391833977-358a52198938?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=500",
+          "https://images.unsplash.com/photo-1602391833977-358a52198938?w=500"
+        ]
+      },
+      "badge": "new",
+      "discount": 0,
+      "rating": 4.7,
+      "reviews": 33,
+      "stock": 20,
+      "description": "Hand-loomed linen table runner with fringed edges. Adds elegance to any dining table.",
+      "shortDescription": "Hand-loomed linen runner",
+      "tags": ["handmade", "fabric", "linen", "table"],
+      "sku": "FAB-021",
+      "sizes": ["Small", "Large"],
+      "colors": ["natural", "gray", "white"]
+    },
+    {
+      "id": 22,
+      "name": "Woven Tapestry Art",
+      "category": "fabric",
+      "price": 85.00,
+      "salePrice": 76.50,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1602391833977-358a52198938?w=500",
+        "hover": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1602391833977-358a52198938?w=500",
+          "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.9,
+      "reviews": 47,
+      "stock": 8,
+      "description": "Stunning handwoven tapestry wall art featuring abstract geometric patterns. A true statement piece.",
+      "shortDescription": "Handwoven wall tapestry",
+      "tags": ["handmade", "fabric", "tapestry", "wall art"],
+      "sku": "FAB-022",
+      "sizes": ["Medium", "Large"],
+      "colors": ["multicolor"]
+    },
+    {
+      "id": 23,
+      "name": "Quilted Tote Bag",
+      "category": "fabric",
+      "price": 48.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?w=500",
+        "hover": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?w=500",
+          "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500"
+        ]
+      },
+      "badge": "bestseller",
+      "discount": 0,
+      "rating": 4.8,
+      "reviews": 52,
+      "stock": 25,
+      "description": "Hand-quilted cotton tote bag with interior pocket. Eco-friendly and durable for everyday use.",
+      "shortDescription": "Hand-quilted tote bag",
+      "tags": ["handmade", "fabric", "tote", "bag"],
+      "sku": "FAB-023",
+      "sizes": [],
+      "colors": ["cream", "navy", "sage"]
+    },
+    {
+      "id": 24,
+      "name": "Crochet Throw Pillow",
+      "category": "fabric",
+      "price": 32.00,
+      "salePrice": 28.80,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500",
+        "hover": "https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500",
+          "https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.5,
+      "reviews": 28,
+      "stock": 30,
+      "description": "Handmade crochet throw pillow with soft cotton filling. Adds cozy texture to any space.",
+      "shortDescription": "Hand-crocheted pillow",
+      "tags": ["handmade", "fabric", "crochet", "pillow"],
+      "sku": "FAB-024",
+      "sizes": [],
+      "colors": ["white", "blush", "mustard"]
+    },
+    {
+      "id": 25,
+      "name": "Wooden Watch",
+      "category": "accessories",
+      "price": 68.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500",
+        "hover": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500",
+          "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500"
+        ]
+      },
+      "badge": "new",
+      "discount": 0,
+      "rating": 4.8,
+      "reviews": 44,
+      "stock": 15,
+      "description": "Eco-friendly handcrafted wooden watch with genuine leather strap. Lightweight and sustainable.",
+      "shortDescription": "Handcrafted wooden watch",
+      "tags": ["handmade", "accessories", "watch", "wooden"],
+      "sku": "ACC-025",
+      "sizes": [],
+      "colors": ["walnut", "maple", "bamboo"]
+    },
+    {
+      "id": 26,
+      "name": "Leather Journal",
+      "category": "accessories",
+      "price": 42.00,
+      "salePrice": 37.80,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=500",
+        "hover": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=500",
+          "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.9,
+      "reviews": 61,
+      "stock": 35,
+      "description": "Hand-stitched leather journal with handmade paper pages. Perfect for writing, sketching, or as a gift.",
+      "shortDescription": "Hand-stitched leather journal",
+      "tags": ["handmade", "accessories", "journal", "leather"],
+      "sku": "ACC-026",
+      "sizes": ["Small", "Medium", "Large"],
+      "colors": ["brown", "tan", "black"]
+    },
+    {
+      "id": 27,
+      "name": "Scented Candle Set",
+      "category": "accessories",
+      "price": 36.00,
+      "salePrice": null,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1602028915047-37269d1a73f7?w=500",
+        "hover": "https://images.unsplash.com/photo-1600428972228-4e7e12eb9814?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1602028915047-37269d1a73f7?w=500",
+          "https://images.unsplash.com/photo-1600428972228-4e7e12eb9814?w=500"
+        ]
+      },
+      "badge": "bestseller",
+      "discount": 0,
+      "rating": 4.7,
+      "reviews": 78,
+      "stock": 50,
+      "description": "Set of 3 hand-poured soy candles with essential oil fragrances. 40+ hour burn time each.",
+      "shortDescription": "Hand-poured soy candles",
+      "tags": ["handmade", "accessories", "candle", "soy"],
+      "sku": "ACC-027",
+      "sizes": [],
+      "colors": ["amber", "white", "sage"]
+    },
+    {
+      "id": 28,
+      "name": "Beaded Keychain",
+      "category": "accessories",
+      "price": 15.00,
+      "salePrice": 13.50,
+      "images": {
+        "main": "https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=500",
+        "hover": "https://images.unsplash.com/photo-1615529182904-14819c35db37?w=500",
+        "gallery": [
+          "https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=500",
+          "https://images.unsplash.com/photo-1615529182904-14819c35db37?w=500"
+        ]
+      },
+      "badge": "sale",
+      "discount": 10,
+      "rating": 4.3,
+      "reviews": 34,
+      "stock": 60,
+      "description": "Colorful handmade beaded keychain with tassel. Perfect small gift or personal accessory.",
+      "shortDescription": "Handmade beaded keychain",
+      "tags": ["handmade", "accessories", "keychain", "beaded"],
+      "sku": "ACC-028",
+      "sizes": [],
+      "colors": ["multicolor", "pink", "blue", "green"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "All Products",
+      "slug": "all"
+    },
+    {
+      "id": "jewelry",
+      "name": "Jewelry",
+      "slug": "jewelry"
+    },
+    {
+      "id": "pottery",
+      "name": "Pottery",
+      "slug": "pottery"
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "slug": "fabric"
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "slug": "accessories"
+    }
+  ]
+}

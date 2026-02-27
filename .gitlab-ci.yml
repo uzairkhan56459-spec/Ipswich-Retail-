@@ -1,0 +1,53 @@
+stages:
+  - test
+  - build
+  - deploy
+
+variables:
+  POSTGRES_DB: test_db
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: postgres
+  DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/test_db"
+
+test:
+  stage: test
+  image: python:3.11
+  services:
+    - postgres:15
+  before_script:
+    - pip install -r requirements.txt
+    - pip install flake8 bandit safety coverage
+  script:
+    - flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - bandit -r . -ll || true
+    - safety check --json || true
+    - python manage.py test
+    - coverage run --source='.' manage.py test
+    - coverage report
+    - coverage xml
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+
+build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker build -t ecommerce-app:$CI_COMMIT_SHA .
+    - docker run -d -p 8000:8000 ecommerce-app:$CI_COMMIT_SHA
+    - sleep 10
+    - apk add curl
+    - curl http://localhost:8000 || exit 1
+
+deploy:
+  stage: deploy
+  image: python:3.11
+  only:
+    - main
+  script:
+    - echo "Deploying to production"
