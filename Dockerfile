@@ -14,4 +14,4 @@ RUN python manage.py collectstatic --noinput
 
 EXPOSE 8000
 
-CMD ["sh", "-c", "python manage.py migrate --noinput && gunicorn --bind 0.0.0.0:$PORT wsgi:application"]
+CMD ["sh", "-c", "python manage.py migrate --noinput && python manage.py loaddata shop/fixtures/initial_data.json && gunicorn --bind 0.0.0.0:$PORT wsgi:application"]
