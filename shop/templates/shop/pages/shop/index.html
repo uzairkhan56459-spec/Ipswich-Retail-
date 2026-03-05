@@ -129,8 +129,8 @@
                         <div class="price-range">
                             <input type="range" id="priceRange" min="0" max="{{ max_price }}" value="{{ max_price }}" step="5">
                             <div class="price-values">
-                                <span id="minPrice">$0</span>
-                                <span id="maxPrice">${{ max_price }}</span>
+                                <span id="minPrice">£0</span>
+                                <span id="maxPrice">£{{ max_price }}</span>
                             </div>
                             <input type="hidden" id="minPriceInput" value="0">
                         </div>
@@ -177,10 +177,10 @@
                                 </a>
                                 <div class="price">
                                     {% if product.discount_price %}
-                                        <span class="old-price">${{ product.price }}</span>
-                                        <span class="new-price">${{ product.discount_price }}</span>
+                                        <span class="old-price">£{{ product.price }}</span>
+                                        <span class="new-price">£{{ product.discount_price }}</span>
                                     {% else %}
-                                        <span class="new-price">${{ product.price }}</span>
+                                        <span class="new-price">£{{ product.price }}</span>
                                     {% endif %}
                                 </div>
                                 <button class="btn btn-outline-primary add-to-cart" data-product-id="{{ product.id }}">Add to Cart</button>
@@ -228,7 +228,7 @@
         <div class="cart-offcanvas__footer" id="cartFooter" style="display: none;">
             <div class="cart-offcanvas__subtotal">
                 <span>Subtotal:</span>
-                <span class="amount" id="cartSubtotal">$0.00</span>
+                <span class="amount" id="cartSubtotal">£0.00</span>
             </div>
             <a href="{% url 'shop:cart' %}">
  class="btn btn-outline-primary btn-block mb-2">View Cart</a>

@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                         </td>
-                        <td class="text-center align-middle text-primary fw-bold">${{ item.price }}</td>
+                        <td class="text-center align-middle text-primary fw-bold">£{{ item.price }}</td>
                         <td class="text-center align-middle">
                             <form action="{% url 'cart:cart_add' item.product.id %}" method="post" class="d-inline">
                                 {% csrf_token %}
@@ -48,7 +48,7 @@
                                 <button type="submit" class="btn btn-sm btn-outline-secondary ms-1">Update</button>
                             </form>
                         </td>
-                        <td class="text-center align-middle text-primary fw-bold">${{ item.total_price }}</td>
+                        <td class="text-center align-middle text-primary fw-bold">£{{ item.total_price }}</td>
                         <td class="text-center align-middle">
                             <form action="{% url 'cart:cart_remove' item.product.id %}" method="post">
                                 {% csrf_token %}
@@ -77,13 +77,13 @@
             {% for item in cart %}
             <div class="d-flex justify-content-between mb-2 small">
                 <span>{{ item.quantity }}x {{ item.product.name }}</span>
-                <span>${{ item.total_price }}</span>
+                <span>£{{ item.total_price }}</span>
             </div>
             {% endfor %}
             <hr>
             <div class="d-flex justify-content-between fw-bold">
                 <span>Total</span>
-                <span class="text-primary">${{ cart.get_total_price }}</span>
+                <span class="text-primary">£{{ cart.get_total_price }}</span>
             </div>
             <a href="{% url 'orders:order_create' %}" class="btn btn-primary w-100 mt-4">
                 <i class="fas fa-credit-card me-2"></i>Proceed to Checkout
